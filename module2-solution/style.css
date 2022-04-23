@@ -1,0 +1,112 @@
+body {
+    font-size: 15pt;
+    background-color: darkorchid;
+}
+h1 {
+    color: #ef5342;
+    text-align: center;
+    text-shadow: 0px 7px 7px #737373;
+    font-family: Quintessential;
+}
+.mncontainer {
+    background-color: plum;
+    margin: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    box-shadow: 0px 2px 3px purple;
+    font-family: Quintessential;
+}
+.container {
+    float: right;
+    padding-right: 5px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: brown;
+    color: white;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.para {
+    padding: 8px;
+    color: #737373;
+    text-shadow: none black;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        color: #ef5342;
+    text-align: center;
+    text-shadow: 0px 7px 7px #737373;
+    font-family: Quintessential;
+    }
+    .mncontainer {
+        background-color: plum;
+        margin: 25px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 3px purple;
+        font-family: Quintessential;
+    }
+    .container {
+        float: right;
+        padding-right: 5px;
+        border-style: solid;
+        border-width: 1px;
+        background-color: linen;
+        color: peru;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 10px;
+    }
+    .para {
+        padding: 8px;
+        color: #737373;
+        text-shadow: none black;
+    }
+}
+
+@media only screen and (min-width: 991) {
+    h1 {
+        color: #ef5342;
+    text-align: center;
+    text-shadow: 0px 7px 7px #737373;
+    font-family: Quintessential;
+    }
+    .mncontainer {
+        background-color: plum;
+        float: left;
+        width: 28%;
+        margin: 25px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 3px purple;
+        font-family: Quintessential;
+    }
+    .container {
+        float: right;
+        padding-right: 5px;
+        border-style: solid;
+        border-width: 1px;
+        background-color: linen;
+        color: peru;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 10px;
+    }
+    .para {
+        padding: 8px;
+        color: #737373;
+        text-shadow: none black;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .mncontainer {
+        float: left;
+        width: 43%;
+    }
+    #container3 {
+        width: 92%;
+    }
+}
